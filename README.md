@@ -14,11 +14,14 @@ Switching to different columns, table names, databases, orms or even just hard-c
 
 ## Routes
 
-`GET: /`: The root of the API should be accessible to everyone
+`GET: /`  
+The root of the API should be accessible to everyone
 
-`POST: /authenticate`: Expects a username and password of an existing user account. Successful requests return a token
+`POST: /authenticate`  
+Expects a username and password of an existing user account. Successful requests return a token
 
-`GET: /test`: Should only be accessible after authentication, providing the token the server supplied (for example, in the x-access-token header)
+`GET: /test`  
+Should only be accessible after authentication, providing the token the server supplied (for example, in the x-access-token header)
 
 ## Testing
 I recommend [Postman](https://www.getpostman.com/) for testing RESTful APIs. This application makes it very simple to tailor your requests, see the responses you are receiving, and to copy any tokens you are handed to the "x-access-token" request header.
