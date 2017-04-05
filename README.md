@@ -10,7 +10,7 @@ npm install
 ```
 
 ...then locate `./config.js` and replace the values to match the details of your database as required. The example currently expects a table with the name of `users` with at least `username` and `password` columns.
-Switching to different columns, table names, databases, orms or even just hard-coding user data as an example should all be easy edits if required.
+Switching to different columns, table names, databases, ORMs or even just hard-coding user data as an example should all be easy edits if required.
 
 ## Routes
 
