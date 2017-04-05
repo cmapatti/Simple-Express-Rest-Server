@@ -1,0 +1,32 @@
+{
+  "name": "simple-express-rest-server",
+  "version": "1.0.0",
+  "description": "A simple RESTful server example featuring JWT authentication in Express",
+  "main": "./bin/www",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmapatti/Simple-Express-Rest-Server"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "startdev": "nodemon ./bin/www"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "jwt",
+    "bookshelf",
+    "example"
+  ],
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "bookshelf": "^0.10.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "jsonwebtoken": "^7.3.0",
+    "knex": "^0.12.8",
+    "lodash": "^4.17.4",
+    "morgan": "~1.7.0",
+    "mysql": "^2.13.0"
+  }
+}
